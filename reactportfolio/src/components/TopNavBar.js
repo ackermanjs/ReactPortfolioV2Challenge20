@@ -17,13 +17,13 @@ const TopNavBar = () => {
         <div className="topnav__links">
           <ul className="topnav__ul">
               <li>
-                  <NavLink to="/about">About</NavLink>
+                  <NavLink to="/aboutpage">About</NavLink>
               </li>
               <li>
-                  <NavLink to="/projects">Projects</NavLink>
+                  <NavLink to="/projectspage">Projects</NavLink>
               </li>
               <li>
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink to="/contactpage">Contact</NavLink>
               </li>
           </ul>
         </div>

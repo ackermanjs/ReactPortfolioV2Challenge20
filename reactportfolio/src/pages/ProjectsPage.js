@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCards from "../components/ProjectCards";
-import "../components/ProjectsPage.css";
+import "../components/ProjectPage.css";
 
 const Template = () => {
   return (

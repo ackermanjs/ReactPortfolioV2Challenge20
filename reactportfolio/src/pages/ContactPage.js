@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectCards from "../components/ContactForm";
-import "../components/.css";
+import ContactForm from "../components/ContactForm";
+import "../components/ContactPage.css";
 
 const ContactPage = () => {
   return (
@@ -8,12 +8,14 @@ const ContactPage = () => {
       <div className="page-container">
         <div className="header-container">
           <div className="header">
-            <h2 className="header-title"></h2>
+            <h2 className="header-title">Feel free to send me a message with this quick form.</h2>
           </div>
         </div>
         <div className="content-container">
           <div className="content">
-            <p className="content-text"></p>
+            <p className="content-text">
+              <ContactForm />
+            </p>
           </div>
           <div className="button-contaier">
             {/* this is where a button would go, if the page features a button. */}
