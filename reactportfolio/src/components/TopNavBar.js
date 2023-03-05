@@ -1,0 +1,35 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+import './TopNavBar.css';
+
+const TopNavBar = () => {
+  return (
+    <div className="topnav-container">
+      <nav className="topnav">
+        <div className="topnav__logo">
+          {/* <img src="path/to/your/logo.png" alt="Logo" /> */}
+          <span className="topnav__logo-text">Jeffrey Ackerman</span>
+        </div>
+        {/* my intention is to make a mobile nav button here:
+        <div className="toggleNav">
+          <button className="toggle__button">X</button>
+        </div> */}
+        <div className="topnav__links">
+          <ul className="topnav__ul">
+              <li>
+                  <NavLink to="/about">About</NavLink>
+              </li>
+              <li>
+                  <NavLink to="/projects">Projects</NavLink>
+              </li>
+              <li>
+                  <NavLink to="/contact">Contact</NavLink>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default TopNavBar;

@@ -1,0 +1,33 @@
+body {
+    background: #dee2e6;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .topnav-container {
+    background: #ADB5BD;
+    border-radius: 15px;
+  }
+  .topnav__logo{
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .topnav__logo span {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .topnav__ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+  .topnav__ul a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem;
+  }
+  .topnav__ul a:visited {
+    color: black;
+  }
+  
