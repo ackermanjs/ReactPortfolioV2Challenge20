@@ -1,0 +1,1 @@
+//Creating a template that I can use for my components to stay consistent with the format.
