@@ -4,7 +4,7 @@ import "../components/ProjectPage.css";
 
 const Template = () => {
   return (
-    <div className="page">
+    <div id="project-page" className="page">
       <div className="page-container">
         <div className="header-container">
           <div className="header">

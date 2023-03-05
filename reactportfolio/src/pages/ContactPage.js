@@ -4,7 +4,7 @@ import "../components/ContactPage.css";
 
 const ContactPage = () => {
   return (
-    <div className="page">
+    <div id="contact-page" className="page">
       <div className="page-container">
         <div className="header-container">
           <div className="header">

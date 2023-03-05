@@ -1,33 +1,33 @@
 .page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.page-container {
-    
+#project-page {
+  background: #6c757d;
+  color: white;
 }
-.header-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header{
 
+.page-container {
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
 }
 .header-title {
-
 }
 .content-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .content {
-
 }
 .content-text {
-
+  text-align: center;
 }
 .button-container {
-
 }
