@@ -4,7 +4,7 @@
 This is a simple portfolio built with React. For this assignment, due to a time crunch, I chose to build a very simple portfolio with minimum styling.
 
 # Deployed Application
-The deployed application can be viewed here:
+The deployed application can be viewed here: https://ackermanjs.github.io/ReactPortfolioV2Challenge20/
 
 # Functionality
 The user will arrive at a very basic portfolio page. They can select links from the top navigation bar. These links will load the content without refreshing the page.
