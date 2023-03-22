@@ -18,13 +18,13 @@ const TopNavBar = () => {
         <div className="topnav__links">
           <ul className="topnav__ul">
               <li>
-                  <NavLink to="/aboutpage">About</NavLink>
+                  <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                  <NavLink to="/projectspage">Projects</NavLink>
+                  <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
-                  <NavLink to="/contactpage">Contact</NavLink>
+                  <NavLink to="/contact">Contact</NavLink>
               </li>
           </ul>
         </div>
