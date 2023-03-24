@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCards from "../components/ProjectCards";
+import ProjectCards from "../../components/ProjectCards";
 import "../components/ProjectPage.css";
 
 const Template = () => {
